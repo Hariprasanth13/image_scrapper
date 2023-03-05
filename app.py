@@ -67,6 +67,7 @@ def index():
                 except Exception as e:
                     logging.info(e)
                     return 'something is wrong'
+#comments
 
     else:
         return render_template('index.html')
